@@ -1,0 +1,55 @@
+{
+  "name": "Example Project",
+  "objective": "Prove that a useful project can justify further investment.",
+  "beneficiary": "A clearly identifiable customer",
+  "value_mechanism": "Save the customer enough time or money that they will pay for the solution",
+  "upside_low": 2000,
+  "upside_base": 10000,
+  "upside_high": 30000,
+  "probability_low": 0.20,
+  "probability_base": 0.45,
+  "probability_high": 0.70,
+  "cash_required": 1000,
+  "hours_required": 40,
+  "hourly_value": 50,
+  "operating_costs": 200,
+  "downside_cost": 200,
+  "time_to_signal_days": 14,
+  "time_to_payoff_days": 90,
+  "strategic_leverage": 4,
+  "reversibility": 4,
+  "execution_feasibility": 4,
+  "differentiation": 3,
+  "reusability": 4,
+  "comparative_advantage": 4,
+  "opportunity_cost_value": 500,
+  "competing_project": "Best alternative project",
+  "dependencies": [],
+  "fatal_constraints": [],
+  "evidence": [
+    {
+      "claim": "The target customer has the stated problem.",
+      "kind": "VERIFIED",
+      "importance": 5,
+      "confidence": 4,
+      "source": "Direct customer conversations",
+      "consequence_if_wrong": "Demand thesis weakens materially."
+    },
+    {
+      "claim": "Customers will pay the proposed price.",
+      "kind": "ASSUMPTION",
+      "importance": 5,
+      "confidence": 2,
+      "source": "",
+      "consequence_if_wrong": "Business model fails."
+    }
+  ],
+  "proposed_experiment": {
+    "hypothesis": "At least 3 qualified prospects will commit to a paid pilot.",
+    "action": "Offer a paid pilot to 20 qualified prospects before building the full product.",
+    "max_cash": 100,
+    "max_hours": 6,
+    "pass_condition": "3 or more genuine paid-pilot commitments.",
+    "fail_condition": "0 or 1 genuine commitment."
+  }
+}
